@@ -22,6 +22,22 @@ Developed by: GAUTHAM KRISHNA S
 RegisterNumber:  212223240036
 */
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
 
 ```PY
 
@@ -59,6 +75,26 @@ r2
 dt.predict([[5,6]])
 
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 ## Output:
 
@@ -74,7 +110,6 @@ dt.predict([[5,6]])
 
 <img width="1090" alt="image" src="https://github.com/gauthamkrishna7/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/141175025/12c831d0-592e-4eaa-8015-99bd6f7b625f">
 
-
 ### DATA HEAD FOR SALARY:
 
 <img width="1100" alt="image" src="https://github.com/gauthamkrishna7/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/141175025/7f5cc54c-0c4d-4ba5-9b38-65ade5e28a01">
@@ -87,10 +122,56 @@ dt.predict([[5,6]])
 
 <img width="1090" alt="image" src="https://github.com/gauthamkrishna7/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/141175025/9e48bef7-60e4-40a5-881c-6edd2e47a138">
 
-
 ### DATA PREDICTION:
 
 <img width="1116" alt="image" src="https://github.com/gauthamkrishna7/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/141175025/0e29307f-7447-42ac-89ba-df9feffcafc2">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
 
 
 
