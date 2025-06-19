@@ -24,37 +24,52 @@ RegisterNumber:  212224240015
 ```
 ```py
 import pandas as pd
-data=pd.read_csv("Salary.csv")
-data.head()
-
-data.info
-
-data.isnull().sum()
-
 from sklearn.preprocessing import LabelEncoder
-le=LabelEncoder()
-data["Position"]=le.fit_transform(data["Position"])
-data.head()
-
-x=data[["Position","Level"]]
-y=data[["Salary"]]
-
 from sklearn.model_selection import train_test_split
-x_train, x_test, y_train, y_test=train_test_split(x,y,test_size=0.2,random_state=2)
-
 from sklearn.tree import DecisionTreeRegressor
-dt=DecisionTreeRegressor()
-dt.fit(x_train,y_train)
-y_pred=dt.predict(x_test)
-
 from sklearn import metrics
-mse=metrics.mean_squared_error(y_test, y_pred)
-mse
 
-r2=metrics.r2_score(y_test,y_pred)
-r2
+# Load the dataset
+data = pd.read_csv("Salary.csv")
 
-dt.predict([[5,6]])
+# Show first 5 rows
+print(data.head())
+
+# Check data types
+print(data.info())
+
+# Check for null values
+print(data.isnull().sum())
+
+# Encode the categorical column 'Position'
+le = LabelEncoder()
+data["Position"] = le.fit_transform(data["Position"])
+
+# Features and target
+x = data[["Position", "Level"]]
+y = data[["Salary"]]
+
+# Split the data into training and testing sets
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=2)
+
+# Train the Decision Tree Regressor
+dt = DecisionTreeRegressor()
+dt.fit(x_train, y_train)
+
+# Predict using the test set
+y_pred = dt.predict(x_test)
+
+# Evaluate model performance
+mse = metrics.mean_squared_error(y_test, y_pred)
+r2 = metrics.r2_score(y_test, y_pred)
+
+print("Mean Squared Error:", mse)
+print("R² Score:", r2)
+
+# Predict salary for a new employee with Position encoded as 5 and Level 6
+predicted_salary = dt.predict([[5, 6]])
+print("Predicted Salary for Position 5 and Level 6:", predicted_salary)
+
 
 ```
 ## Output:
