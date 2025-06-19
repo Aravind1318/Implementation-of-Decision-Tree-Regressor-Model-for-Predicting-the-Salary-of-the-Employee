@@ -22,25 +22,6 @@ Developed by: ARAVIND.P
 RegisterNumber:  212224240015
 */
 ```
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-
-```PY
-
 import pandas as pd
 data=pd.read_csv("Salary.csv")
 data.head()
