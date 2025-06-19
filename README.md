@@ -22,6 +22,7 @@ Developed by: ARAVIND.P
 RegisterNumber:  212224240015
 */
 ```
+```py
 import pandas as pd
 data=pd.read_csv("Salary.csv")
 data.head()
@@ -85,54 +86,6 @@ dt.predict([[5,6]])
 ### DATA PREDICTION:
 
 <img width="1116" alt="image" src="https://github.com/gauthamkrishna7/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/141175025/0e29307f-7447-42ac-89ba-df9feffcafc2">
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
 
 
 ## Result:
